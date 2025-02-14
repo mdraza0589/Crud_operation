@@ -1,0 +1,56 @@
+body {
+    background-color: red;
+
+}
+#heading{
+    text-align: center;
+}
+.container input {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0.5px solid;
+}
+
+.form-container {
+    width: 80%;
+    background-color: white;
+    height: fit-content;
+    padding: 20px;
+}
+.thead{
+    width: 100%;
+}
+.thead-container{
+    border: 1px solid green;
+    background-color: rgba(74, 58, 58, 0.687);
+    font-weight: 700;
+    padding: 10px 0;
+    color: wheat;
+    margin: 20px 0;
+    text-align: center;
+}
+.create_form, .update_form {
+    display: none;
+}
+.item-row td{
+    text-align: center;
+}
+.item-row{
+    border-bottom: 0.2px solid black;
+}
+
+
+@media screen and (max-width: 550px) {
+    .form-container{
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+    .first button{
+        font-size: 0.5rem;
+    }
+    .first{
+        font-size: 0.6rem;
+    }
+}
