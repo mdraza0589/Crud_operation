@@ -11,8 +11,9 @@
 </head>
 
 <body onload="readAll()">
-    <h1 id="heading">Crud Operation In JavaScript</h1>
-    <h4 id="heading">You can add update and remove the data</h4>
+    <div class="body-container">
+        <h1 id="heading">Crud Operation In JavaScript</h1>
+        <h6>You can add, update, remove the data.</h6>
     <div class="container">
         <div class="form-container container text-cente first">
             <form action="" class="row align-items-center create_form">
@@ -21,18 +22,18 @@
                 <input type="text" placeholder="enter email" class="email col-4">
                 <button type="button" class=" btn btn-primary col-2" onclick="add()">Create</button>
             </form>
-
+            
             <form action="" class="row align-items-center update_form first">
                 <input type="text"  class="uid col-4">
                 <input type="text" placeholder="enter name" class="uname col-4">
                 <input type="text" placeholder="enter email" class="uemail col-4">
                 <button type="button" class="btn btn-warning col-2" onclick="update()">update</button>
             </form>
-
+            
             <div class="add_div">
                 <button onclick="create()" type="button" class="btn btn-success">Add +</button>
             </div>
-
+            
             <table class="thead">
                 <thead>
                     <tr class="row align-items-center thead-container ">
@@ -42,11 +43,16 @@
                     </tr>
                 </thead>
                 <tbody class="data-table first">
-
+                    
                 </tbody>
             </table>
         </div>
     </div>
+</div>
+
+    <footer>
+        <h5>copyright &copy; by Mohammad Raza</h5>
+    </footer>
 </body>
 <script src="script.js"></script>
 
